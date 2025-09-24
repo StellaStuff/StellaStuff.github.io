@@ -117,13 +117,13 @@ main {
   font-size: 20px;
 }
 
-.blog-post .bottom-nav {
+.bottom-nav {
   width: 100%;
   text-align: center;
 }
 
-.blog-post .bottom-nav a{
-  padding: 3em;
+.bottom-nav a{
+  margin: 3em;
   text-decoration: none;
 }
 
@@ -141,7 +141,22 @@ main {
   overflow: hidden;
 }
 
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+/* Create four equal columns that sits next to each other */
+.img-gallery .column {
+  flex: 50%;
+  max-width: 50%;
+  margin: 0;
+}
+
+.img-gallery .column img {
+  vertical-align: middle;
+  width: 100%;
+}
 
 .headshot {
   float: right;
