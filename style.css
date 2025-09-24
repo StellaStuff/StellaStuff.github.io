@@ -103,6 +103,10 @@ main {
   text-align: center;
 }
 
+.stuff li {
+  margin-top: 0.3em;
+}
+
 .blog-post {
   outline: 0.1em solid #80f;
   background-color: #000;
